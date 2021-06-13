@@ -1,0 +1,142 @@
+/*Color Animation start*/
+.n_js_all{
+  padding: 20px;
+}
+.animate, .toggle_js, .add_class, .remove_class, .switch{
+    margin: 100px 0 100px;
+ }
+
+.toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+
+#button {
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+
+#effect { 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+    background: #fff; 
+}
+
+#effect h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+/*Color Animation end*/
+
+/*Toggle start*/
+  .toggler_2 {
+    width: 500px;
+    height: 200px;
+  }
+  #button_2 {
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+  #effect_2 {
+    position: relative;
+    width: 240px;
+    height: 170px;
+    padding: 0.4em;
+  }
+  #effect_2 h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+  }
+/*Toggle end*/
+
+/*add class start*/
+.toggler_3 { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button_3 { 
+    padding: .5em 1em; 
+     text-decoration: none; 
+}
+#effect_3 { 
+    width: 240px;  
+    padding: 1em; 
+    border: 1px solid #000; 
+    background: #eee; color: #333; 
+}
+.newClass { 
+    text-indent: 40px; 
+    letter-spacing: .4em; 
+    width: 410px; 
+    height: 120px; 
+    padding: 30px; 
+    margin: 10px; 
+    font-size: 1.1em;
+}
+/*add class end*/
+
+/*remove class start*/
+.toggler_4 { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+  #button_4 { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+  #effect_4{ 
+    position: relative;  
+    width: 300px;
+    padding: 0.1em;  
+    letter-spacing: 0; 
+    font-size: 1em; 
+    border: 1px solid #000; 
+    background: #eee; 
+    color: #333; 
+}
+  .newClass_4 { 
+    text-indent: 40px; 
+    letter-spacing: .4em; 
+    width: 410px; 
+    height: 100px; 
+    padding: 30px; 
+    margin: 10px; 
+    font-size: 1.6em; 
+}
+/*remove class end*/
+
+/*Switch Class start*/
+.toggler_5{ 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+  #button_5{ 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+  #effect_5{ 
+    position: relative; 
+}
+  .newClass_5{ 
+    width: 240px;  
+    padding: 1em; 
+    letter-spacing: 0; 
+    margin: 0; }
+  .anotherNewClass { 
+    text-indent: 40px; 
+    letter-spacing: .2em; 
+    width: 410px; 
+    height: 100px; 
+    padding: 30px; 
+    margin: 10px; 
+    font-size: 1.1em; }
+
+/*Switch Class end*/

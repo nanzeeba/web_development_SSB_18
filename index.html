@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Nanzeeba">
+    <meta name="description" content="Personal website for branding and freelancing">
+    <meta name="keywords" content="nanzeeba, ibnat, nanzeeba ibnat, personal branding, branding, freelancing ">
+    <meta name="robots" content="index, follow">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Jquery Practice</title>
+
+    <!-- font -->
+    <!-- font end -->
+
+  </head>
+  <body>
+    <!-- interactions start  -->
+
+    <!-- nav bar start -->
+    <section class="navbar_js">
+      <nav class="navbar navbar-expand-lg n_js_light navbar-light bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler n_js_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_js" aria-controls="menu_js" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse n_js_all" id="menu_js">
+            <form class="container-fluid d-flex justify-content-center">
+              <a href="index.html"><button class="btn btn-outline-light me-2" type="button">Interactions</button></a>
+              <a href="widgets.html"><button class="btn btn-outline-light me-2" type="button">Widgets</button></a>
+              <a href="effects.html"><button class="btn btn-outline-light me-2" type="button">Effects</button></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- nav bar end -->
+
+    <section class="interactions">
+      <div class="container">
+        <div class="row">
+          <h3>1.Resizable - Constrain Area</h3>
+          <div id="container" class="ui-widget-content">
+            <h3 class="ui-widget-header">Containment</h3>
+            <div id="resizable" class="ui-state-active">
+              <h3 class="ui-widget-header">Resizable</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- interactions end-->
+
+    <!-- Draggable start -->
+    <section class="drag">
+      <div class="container">
+        <div class="row">
+          <h3>2.Draggable - Snap to</h3>
+          <div id="snaptarget" class="ui-widget-header">
+            <p>I&apos;m a snap target</p>
+          </div>
+            <br style="clear:both">
+              <div id="draggable" class="draggable ui-widget-content">
+              <p>Snaps to all other elements</p>
+              </div>
+               
+              <div id="draggable2" class="draggable ui-widget-content">
+              <p>I only snap to the big box</p>
+              </div>
+              <div id="draggable3" class="draggable ui-widget-content">
+              <p>I only snap to the outer edges</p>
+              </div>
+              <div id="draggable4" class="draggable ui-widget-content">
+                <p>I snap to a 20 x 20 grid</p>
+              </div>
+              <div id="draggable5" class="draggable ui-widget-content">
+              <p>I snap to a 80 x 80 grid</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Draggable end -->
+
+    <!-- Droppable start -->
+    <section class="drop">
+      <div class="container">
+        <div class="row">
+          <h3>3.Droppable - Snap to</h3>
+           <div class="ui-widget ui-helper-clearfix">
+            <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras</h5>
+                <img src="images/1.jpg" alt="The peaks of High Tatras" width="96" height="72">
+                <a href="images/1.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 2</h5>
+                <img src="images/2.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+                <a href="images/2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 3</h5>
+                <img src="images/3.jpg" alt="Planning the ascent" width="96" height="72">
+                <a href="images/3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 4</h5>
+                <img src="images/4.jpg" alt="On top of Kozi kopka" width="96" height="72">
+                <a href="images/4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+              </li>
+            </ul>
+            <div id="trash" class="ui-widget-content ui-state-default">
+              <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <!-- Droppable end -->
+
+    <!-- Selectable start -->
+    <section class="select">
+      <div class="container">
+        <div class="row">
+          <h3>4.Selectable - Display grid</h3>
+          <ol id="selectable">
+            <li class="ui-state-default">1</li>
+            <li class="ui-state-default">2</li>
+            <li class="ui-state-default">3</li>
+            <li class="ui-state-default">4</li>
+            <li class="ui-state-default">5</li>
+            <li class="ui-state-default">6</li>
+            <li class="ui-state-default">7</li>
+            <li class="ui-state-default">8</li>
+            <li class="ui-state-default">9</li>
+            <li class="ui-state-default">10</li>
+            <li class="ui-state-default">11</li>
+            <li class="ui-state-default">12</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- Selectable end -->
+
+    <!-- Sortable start -->
+    <section class="sort">
+      <div class="container">
+        <div class="row">
+          <h3>5.Sortable - Display grid</h3>
+            <ul id="sortable1" class="connectedSortable">
+              <li class="ui-state-default">Item 1</li>
+              <li class="ui-state-default">Item 2</li>
+              <li class="ui-state-default">Item 3</li>
+              <li class="ui-state-default">Item 4</li>
+              <li class="ui-state-default">Item 5</li>
+            </ul>
+             
+            <ul id="sortable2" class="connectedSortable">
+              <li class="ui-state-highlight">Item 1</li>
+              <li class="ui-state-highlight">Item 2</li>
+              <li class="ui-state-highlight">Item 3</li>
+              <li class="ui-state-highlight">Item 4</li>
+              <li class="ui-state-highlight">Item 5</li>
+            </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Sortable end -->
+
+    <!-- JS links -->
+   
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  
+  </body>
+</html>

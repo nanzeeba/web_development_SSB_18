@@ -1,0 +1,26 @@
+.n_js_all{
+  padding: 20px;
+}
+.accordion_js, .auto_complete, .product_selector, .datepicker, .selectmenu{
+	margin: 100px 0 100px;
+}
+
+/*Selectmenu start*/
+
+.fieldset_s {
+    border: 0;
+    margin-left: 300px;
+}
+.label_s {
+    display: block;
+    margin: 20px 0 0 0;
+}
+ 
+#circle {
+    float: left;
+    background: yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/*Selectmenu end*/
